@@ -29,5 +29,25 @@ function maxLog5(n){
     }
 }
 
-maxLog5(1);//time complexity is O(n) because it will run n times
+//maxLog5(1);//time complexity is O(n) because it will run n times
 
+
+function sum(arr){
+    let total = 0;
+    for(let i = 0; i < arr.length; i++){
+        total += arr[i];
+    }
+    return total;
+}
+
+//console.log(sum([23, 4, 6]));
+
+function double(arr){
+    let newArr = [];
+    for(let i = 0; i < arr.length; i++){
+        newArr.push(2 * arr[i]);
+    }
+    return newArr;
+}
+
+//console.log(double([1, 2, 3]));
